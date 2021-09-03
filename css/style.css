@@ -1,0 +1,237 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+body {
+  font-family: "微軟正黑體",Verdana, sans-serif;
+  font-size: 18px;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+	color: #1e1e1e;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1{
+	font-size: 2rem;
+	font-weight: 1000;
+	line-height: 45px;
+}
+
+h2{
+	font-size: 1.8rem;
+	font-weight: 900;
+	line-height: 40px;
+}
+
+h3{
+	font-size: 1.6rem;
+	font-weight: 800;
+	line-height: 35px;
+}
+
+h4{
+	font-size: 1.4rem;
+	font-weight: 600;
+	line-height: 30px;
+}
+
+h5{
+	font-size: 1.2rem;
+	font-weight: 600;
+	line-height: 25px;
+}
+
+p{
+	font-size: 1rem;
+	line-height: 24px;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+a{
+	
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+/*nav*/
+@media (max-width: 576px) { 
+	.phone-logo{
+		width: 100%;
+		height: auto;
+	}
+	.navbar-brand{
+		width: 80%;
+	}
+ }
+@media (max-width: 450px) { 
+	.phone-logo{
+		width: 100%;
+		height: auto;
+	}
+	.navbar-brand{
+		width: 80%;
+	}
+ }
+
+
+
+@media(max-width: 991px){
+	.navbar-bg{
+	background: url(../img/usr_navBG.jpg) top center no-repeat;
+}
+}
+
+.navbar-nav a{
+	position: relative;
+}
+
+.navbar-nav a img{
+	position: absolute;
+	top:5px;
+	padding-top: 0px;
+}
+
+/*index*/
+.indexBG{
+	background: url(../img/usr_indexBG.jpg) top center no-repeat;
+	background-size: auto 800px;
+}
+.indexBG2 img{
+	z-index: 100;
+	opacity:0;
+	mix-blend-mode: multiply;
+}
+
+
+@media(min-width: 576px) and (max-width: 768px) { 
+	.indexBG{
+	background: url(../img/usr_indexBG.jpg) top center no-repeat;
+	background-size: cover;
+   }
+	
+}
+
+@media(max-width: 576px) { 
+	.indexBG{
+	background: url(../img/usr_index-phoneBG.png) fixed;
+	background-size: cover;
+   }
+	
+}
+
+
+.aboutBG{
+	background: url(../img/usr_aboutBG.png) top center no-repeat;
+	background-size: auto 800px;
+}
+@media (min-width: 577px) { 
+	.aboutBG{
+	background: url(../img/usr_aboutBG.png) top center no-repeat;
+	background-size: auto 800px;
+	}
+	.pb-150{
+		padding-bottom:150px;
+	}
+}
+
+.content{
+	margin: 0 auto;
+	width: 10px;
+	height: 800px;
+	position: relative;
+}
+
+.content a img{
+	position: absolute;
+	top: 520px;
+	left: 170px;
+}
+
+@media (max-width: 576px) { 
+	.aboutBG{
+	background: url(../img/usr_aboutBG.png) top center no-repeat;
+	background-size: auto 700px;
+	}
+	.content{
+	height: 700px;
+	position: relative;
+	}
+	.content a img{
+		margin: 0 auto;
+	width: 10px;
+	width: 80px;
+	height: auto;
+	position: absolute;
+	top: 470px;
+	left: -10px;
+}
+ }
+ @media (max-width: 450px) { 
+	.aboutBG{
+	background: url(../img/usr_aboutBG.png) top center no-repeat;
+	background-size: auto 600px;
+	}
+	.content{
+	height: 600px;
+	position: relative;
+	}
+	.content a img{
+		margin: 0 auto;
+		width: 70px;
+	height: auto;
+	position: absolute;
+	top: 400px;
+	left: -9px;
+}
+ }
+
+ @media (max-width: 1000px) {
+	.dis-none{
+		display: none;
+	}
+	)
